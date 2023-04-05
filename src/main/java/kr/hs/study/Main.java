@@ -11,8 +11,8 @@ public class Main {
         TestBean1 obj1 = ctx.getBean(TestBean1.class);
 
         TestBean2 obj2 = ctx.getBean(TestBean2.class);
-        obj2.setData1(11);
-        obj2.setData2(11.11);
+      //  obj2.setData1(11);
+      //  obj2.setData2(11.11);
         System.out.println("obj2.getData1 : " + obj2.getData1());
         System.out.println("obj2.getData2 : " + obj2.getData2());
 
